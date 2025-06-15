@@ -47,7 +47,7 @@
    cd MataBatik
 
 2. **Install backend dependencies**
-  bash
+  ```bash
   Copy
   Edit
   pip install -r requirements.txt
@@ -57,12 +57,15 @@
   Copy
   Edit
   python app.py
-  
+  ```
 3. **Open the index.html file in a browser**
+   
 ⚠️ Make sure your .h5 model file is available and correctly referenced in app.py.
 
 ---
 
 Steven Valentino Taslim
+
 📧 stevenv2605@gmail.com
+
 🔗 https://www.linkedin.com/in/steven-vt/
