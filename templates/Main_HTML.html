@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MataBatik</title>
+    <link rel="stylesheet" href="/static/assets/Main_CSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Racing+Sans+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background"></div>
+
+    <div class="navbar">
+        <h1 class="logo">MataBatik</h1>
+        <a href="/" class="back-button">⮌</a>
+    </div>
+
+    <div class="container">
+        <form enctype="multipart/form-data" id="uploadForm" method="POST">
+            <div class="upload-box">
+                <h2>UPLOAD YOUR FILE</h2>
+                <div class="image-preview" id="imagePreview">
+                    <span>Preview will appear here</span>
+                </div>
+                <div class="button-group">
+                    <input type="file" id="fileInput" name="my_image" accept="image/*">
+                    <label for="fileInput" class="choose-file">Choose File</label>
+                    <button type="button" id="removeImage" class="remove">Remove Image</button>
+                </div>       
+            </div>
+        </form>        
+    </div>
+
+    <div class="button">
+        <button type="button" id="detectImage" class="detect">Detect!</button>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal" id="resultModal">
+        <div class="modal-content">
+            <h2>Prediction Result</h2>
+            <img id="resultImage" src="" alt="Detected Image">
+            <p id="resultText"></p>
+            <button class="close" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+    <script src="/static/assets/Main_JS.js"></script>
+</body>
+</html>
