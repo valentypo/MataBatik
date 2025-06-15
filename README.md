@@ -63,10 +63,9 @@
 ⚠️ Make sure your .h5 model file is available and correctly referenced in app.py.
 
 ---
-**👨‍💻 Author**
-
+## 🙋‍♂️ Author
 Steven Valentino Taslim
 
 📧 stevenv2605@gmail.com
 
-🔗 https://www.linkedin.com/in/steven-vt/
+🔗 www.linkedin.com/in/steven-vt
